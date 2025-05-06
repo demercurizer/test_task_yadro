@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/runTests.dir/test_main.cpp.o CMakeFiles/runTests.dir/ClubSystem_test.cpp.o -o runTests  ../libcore.a /usr/lib/x86_64-linux-gnu/libgtest_main.a /usr/lib/x86_64-linux-gnu/libgtest.a 

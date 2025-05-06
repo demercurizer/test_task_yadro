@@ -1,9 +1,0 @@
-/home/gennady/Programming/test_task_yadro/build/CMakeFiles/core.dir
-/home/gennady/Programming/test_task_yadro/build/CMakeFiles/task.dir
-/home/gennady/Programming/test_task_yadro/build/CMakeFiles/test.dir
-/home/gennady/Programming/test_task_yadro/build/CMakeFiles/edit_cache.dir
-/home/gennady/Programming/test_task_yadro/build/CMakeFiles/rebuild_cache.dir
-/home/gennady/Programming/test_task_yadro/build/tests/CMakeFiles/runTests.dir
-/home/gennady/Programming/test_task_yadro/build/tests/CMakeFiles/test.dir
-/home/gennady/Programming/test_task_yadro/build/tests/CMakeFiles/edit_cache.dir
-/home/gennady/Programming/test_task_yadro/build/tests/CMakeFiles/rebuild_cache.dir
