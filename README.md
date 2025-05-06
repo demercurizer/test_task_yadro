@@ -53,6 +53,12 @@ make
 ./task <path_to_input_file>
 ```
 
+## Авторский тест
+
+```bash
+./task tests/fixtures/example.txt
+```
+
 ## Юнит‑тесты
 
 Все тесты собраны в `tests/ClubSystem_test.cpp`. Запустить их можно так:
@@ -61,3 +67,4 @@ make
 cd build
 ./tests/runTests --gtest_color=yes
 ```
+

@@ -11,16 +11,18 @@ ClubSystem::ClubSystem(int tables, int openT, int closeT, int price)
       occupiedMinutes(tables + 1, 0), revenue(tables + 1, 0) {}
 
 void ClubSystem::processInputFile(const std::string &filename) {
-  std::ifstream in(filename);
-  if (!in) {
-    std::cerr << "Cannot open file: " << filename << "\n";
-    return;
-  }
+    std::ifstream in(filename);
+    if (!in) { std::cerr<<"Cannot open file\n"; return; }
 
-  // Чтение конфигурации
-  std::string line;
-  std::getline(in, line); // число столов
-  std::getline(in, line); // время открытия/закрытия
+    std::string line;
+    // 1) число столов:
+    std::getline(in, line);
+    nTables = std::stoi(line);
+    occupiedMinutes.assign(nTables+1, 0);
+    revenue.assign(nTables+1, 0);
+
+    // 2) время открытия/закрытия
+    std::getline(in, line);
   {
     std::istringstream ss(line);
     std::string o, c;
